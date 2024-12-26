@@ -20,3 +20,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ github.actor }} successfully set up a new job, this one!"
+      - name: Testing name
+        run: echo "It looks like you can't really group commands with name. I guess thats the point of steps"
