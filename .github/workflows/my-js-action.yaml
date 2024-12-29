@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: aleguy02/My-JS-Action@1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b
+        uses: aleguy02/My-JS-Action@7bdf67f7a95c42db6b2cdd4a2f8ce448fd2c287f
         with:
           who-to-greet: 'aleguy02'
       # Use the output from the `hello` step
